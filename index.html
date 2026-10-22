@@ -1,0 +1,669 @@
+<!DOCTYPE html><html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Website profil pribadi anime profesional">
+<meta name="author" content="Jusni Andriani">
+
+<title>Anime Profile | Jusni Andriani</title>
+
+<!-- Google Font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- CSS -->
+<link rel="stylesheet" href="style.css">
+
+</head><body><!-- =========================
+     LOADING SCREEN
+========================== -->
+<div class="loader" id="loader">
+    <div class="loader-content">
+
+        <div class="anime-loader">
+            <div class="loader-eye"></div>
+        </div>
+
+        <h1>WELCOME</h1>
+        <p>Loading your anime world...</p>
+
+        <div class="loader-bar">
+            <span></span>
+        </div>
+    </div>
+</div>
+
+
+<!-- =========================
+     BACKGROUND CANVAS
+========================== -->
+<canvas id="particleCanvas"></canvas>
+
+<div class="background-glow glow-1"></div>
+<div class="background-glow glow-2"></div>
+
+
+<!-- =========================
+     NAVBAR
+========================== -->
+<header class="navbar">
+
+    <a href="#home" class="logo">
+        <span>✦</span> JUSNI<span>.</span>
+    </a>
+
+    <nav id="navMenu">
+
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Galeri</a>
+        <a href="#contact" class="nav-link">Contact</a>
+
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+</header>
+
+
+<!-- =========================
+     MAIN
+========================== -->
+<main>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+    <section class="hero section" id="home">
+
+        <div class="hero-content reveal">
+
+            <div class="hero-badge">
+                <span class="status-dot"></span>
+                Student • Content Creator
+            </div>
+
+            <p class="small-title">
+                HELLO, I'M
+            </p>
+
+            <h1>
+                JUSNI <span>ANDRIANI</span>
+            </h1>
+
+            <h2>
+                I'm a <span id="typingText"></span>
+            </h2>
+
+            <p class="hero-description">
+                Saya adalah siswa SMKN 1 Kolaka yang memiliki
+                ketertarikan dalam membuat content, membaca buku,
+                dunia kreatif, dan mempelajari berbagai hal baru.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#projects" class="btn primary-btn">
+                    Explore My Work
+                    <span>↗</span>
+                </a>
+
+                <a href="#contact" class="btn secondary-btn">
+                    Contact Me
+                </a>
+
+            </div>
+
+            <div class="social-mini">
+
+                <!-- GANTI LINK -->
+                <a href="https://instagram.com/j_sni296" target="_blank">
+                    IG
+                </a>
+
+                <a href="https://wa.me/6287859047119" target="_blank">
+                    WA
+                </a>
+
+                <a href="mailto:emailanda@gmail.com">
+                    @
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <!-- CHARACTER -->
+        <div class="hero-character reveal">
+
+            <div class="character-glow"></div>
+
+            <!--
+                GANTI GAMBAR KARAKTER DI SINI
+
+                Contoh:
+                images/anime-character.png
+            -->
+            <img
+                src="images/anime-character.png"
+                alt="Anime Character"
+                class="anime-character"
+            >
+
+            <div class="floating-card card-one">
+                <span>✦</span>
+                Creative
+            </div>
+
+            <div class="floating-card card-two">
+                <span>♡</span>
+                Book Lover
+            </div>
+
+        </div>
+
+
+        <div class="scroll-indicator">
+            <span></span>
+            Scroll to explore
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         ABOUT
+    ========================== -->
+    <section class="about section" id="about">
+
+        <div class="section-title reveal">
+            <p>GET TO KNOW ME</p>
+            <h2>About <span>Me</span></h2>
+        </div>
+
+
+        <div class="about-grid">
+
+            <div class="about-image reveal">
+
+                <!-- GANTI FOTO -->
+                <img
+                    src="images/profile.jpg"
+                    alt="Foto Profil"
+                >
+
+                <div class="image-decoration"></div>
+
+            </div>
+
+
+            <div class="about-content reveal">
+
+                <span class="about-label">
+                    ABOUT ME
+                </span>
+
+                <h3>
+                    Creating something
+                    <span>beautiful & meaningful.</span>
+                </h3>
+
+                <p>
+                    Halo! Saya <strong>Jusni Andriani</strong>,
+                    seorang siswa <strong>SMKN 1 Kolaka kelas 10 Jurusan TJKT</strong>
+                    yang memiliki ketertarikan terhadap dunia kreatif,
+                    terutama dalam membuat content.
+                </p>
+
+                <p>
+                    Selain membuat content, saya juga senang membaca
+                    buku dan mencari ilmu baru. Saya terus berusaha
+                    mengembangkan kemampuan serta menghasilkan karya
+                    yang kreatif dan bermanfaat.
+                </p>
+
+
+                <div class="personal-info">
+
+                    <div>
+                        <small>Name</small>
+                        <strong>Jusni Andriani</strong>
+                    </div>
+
+                    <div>
+                        <small>School</small>
+                        <strong>SMKN 1 Kolaka</strong>
+                    </div>
+
+                    <div>
+                        <small>Class</small>
+                        <strong>X.TP-LINK</strong>
+                    </div>
+
+                    <div>
+                        <small>Hobby</small>
+                        <strong>Content & Reading</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SKILLS
+    ========================== -->
+    <section class="skills section" id="skills">
+
+        <div class="section-title reveal">
+            <p>WHAT I CAN DO</p>
+            <h2>My <span>Skills</span></h2>
+        </div>
+
+
+        <div class="skills-grid">
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">◈</div>
+
+                <h3>Content Creation</h3>
+
+                <p>
+                    Membuat content kreatif yang menarik
+                    untuk berbagai kebutuhan digital.
+                </p>
+
+                <div class="skill-progress">
+                    <span style="width: 85%"></span>
+                </div>
+
+                <small>85%</small>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">◇</div>
+
+                <h3>Creative Design</h3>
+
+                <p>
+                    Membuat desain visual yang menarik,
+                    kreatif, dan sesuai dengan kebutuhan.
+                </p>
+
+                <div class="skill-progress">
+                    <span style="width: 80%"></span>
+                </div>
+
+                <small>80%</small>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">✦</div>
+
+                <h3>Photo & Video Editing</h3>
+
+                <p>
+                    Mengedit foto dan video menjadi content
+                    yang lebih menarik dan kreatif.
+                </p>
+
+                <div class="skill-progress">
+                    <span style="width: 78%"></span>
+                </div>
+
+                <small>78%</small>
+
+            </div>
+
+
+            <div class="skill-card reveal">
+
+                <div class="skill-icon">♡</div>
+
+                <h3>Reading & Learning</h3>
+
+                <p>
+                    Senang membaca buku, mencari informasi,
+                    dan mempelajari ilmu baru.
+                </p>
+
+                <div class="skill-progress">
+                    <span style="width: 90%"></span>
+                </div>
+
+                <small>90%</small>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJECTS / PHOTO GALLERY
+    ========================== -->
+    <section class="projects section" id="projects">
+
+        <div class="section-title reveal">
+            <p>MY PHOTO GALLERY</p>
+            <h2>My <span>Gallery</span></h2>
+        </div>
+
+
+        <div class="projects-grid">
+
+
+            <!-- FOTO 1 -->
+            <article class="project-card reveal">
+
+                <div class="project-media">
+
+                    <!-- GANTI FOTO 1 -->
+                    <img
+                        src="images/photo1.jpg"
+                        alt="Galeri Foto 1"
+                    >
+
+                    <div class="project-overlay">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <button class="view-project">
+                            View Photo ↗
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>PHOTO</span>
+                        <h3>My Creative Gallery</h3>
+                    </div>
+
+                    <span class="project-arrow">↗</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- FOTO 2 -->
+            <article class="project-card reveal">
+
+                <div class="project-media">
+
+                    <!-- GANTI FOTO 2 -->
+                    <img
+                        src="images/photo2.jpg"
+                        alt="Galeri Foto 2"
+                    >
+
+                    <div class="project-overlay">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <button class="view-project">
+                            View Photo ↗
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>PHOTO</span>
+                        <h3>Creative Moment</h3>
+                    </div>
+
+                    <span class="project-arrow">↗</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- FOTO 3 -->
+            <article class="project-card reveal">
+
+                <div class="project-media">
+
+                    <!-- GANTI FOTO 3 -->
+                    <img
+                        src="images/photo3.jpg"
+                        alt="Galeri Foto 3"
+                    >
+
+                    <div class="project-overlay">
+
+                        <span class="project-number">
+                            03
+                        </span>
+
+                        <button class="view-project">
+                            View Photo ↗
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>PHOTO</span>
+                        <h3>Creative Work</h3>
+                    </div>
+
+                    <span class="project-arrow">↗</span>
+
+                </div>
+
+            </article>
+
+
+            <!-- FOTO 4 -->
+            <article class="project-card reveal">
+
+                <div class="project-media">
+
+                    <!-- GANTI FOTO 4 -->
+                    <img
+                        src="images/photo4.jpg"
+                        alt="Galeri Foto 4"
+                    >
+
+                    <div class="project-overlay">
+
+                        <span class="project-number">
+                            04
+                        </span>
+
+                        <button class="view-project">
+                            View Photo ↗
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="project-info">
+
+                    <div>
+                        <span>PHOTO</span>
+                        <h3>My Favorite Moment</h3>
+                    </div>
+
+                    <span class="project-arrow">↗</span>
+
+                </div>
+
+            </article>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACT
+    ========================== -->
+    <section class="contact section" id="contact">
+
+        <div class="contact-box reveal">
+
+            <div class="contact-title">
+
+                <p>LET'S CONNECT</p>
+
+                <h2>
+                    Have a project
+                    <span>in mind?</span>
+                </h2>
+
+                <p class="contact-description">
+                    Jika Anda ingin bekerja sama, berdiskusi,
+                    atau sekadar menyapa, silakan hubungi saya
+                    melalui salah satu platform berikut.
+                </p>
+
+            </div>
+
+
+            <div class="contact-links">
+
+                <!--
+                    WHATSAPP
+
+                    SILAKAN GANTI SENDIRI
+                -->
+                <a
+                    href="https://wa.me/6287859047119"
+                    target="_blank"
+                    class="contact-item"
+                >
+
+                    <span class="contact-icon">
+                        WA
+                    </span>
+
+                    <div>
+                        <small>WhatsApp</small>
+                        <strong>Chat with me</strong>
+                    </div>
+
+                    <span>↗</span>
+
+                </a>
+
+
+                <!-- INSTAGRAM -->
+                <a
+                    href="https://instagram.com/j_sni296"
+                    target="_blank"
+                    class="contact-item"
+                >
+
+                    <span class="contact-icon">
+                        IG
+                    </span>
+
+                    <div>
+                        <small>Instagram</small>
+                        <strong>@j_sni296</strong>
+                    </div>
+
+                    <span>↗</span>
+
+                </a>
+
+
+                <!-- EMAIL -->
+                <a
+                    href="mailto:emailanda@gmail.com"
+                    class="contact-item"
+                >
+
+                    <span class="contact-icon">
+                        @
+                    </span>
+
+                    <div>
+                        <small>Email</small>
+                        <strong>emailanda@gmail.com</strong>
+                    </div>
+
+                    <span>↗</span>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+</main>
+
+
+<!-- =========================
+     FOOTER
+========================== -->
+<footer>
+
+    <div class="footer-logo">
+        JUSNI<span>.</span>
+    </div>
+
+    <p>
+        Designed & Created with ♡
+    </p>
+
+    <p>
+        © <span id="year"></span> Jusni Andriani
+    </p>
+
+</footer>
+
+
+<!-- PHOTO GALLERY PREVIEW -->
+<div class="photo-preview" id="photoPreview" role="dialog" aria-modal="true" aria-label="Pratinjau foto galeri" aria-hidden="true">
+    <button class="photo-preview-close" id="photoPreviewClose" type="button" aria-label="Tutup pratinjau">&times;</button>
+    <div class="photo-preview-content">
+        <img id="photoPreviewImage" src="" alt="Pratinjau foto galeri">
+        <p id="photoPreviewCaption"></p>
+    </div>
+</div>
+
+<!-- JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
